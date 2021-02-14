@@ -12,10 +12,8 @@ import javax.swing.JPanel;
 
 public class MyWindow extends JFrame {
 
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
+
 	/* ---------------Attributes-------------- */ 
     // components
     JButton start_race, quit;
@@ -59,13 +57,13 @@ public class MyWindow extends JFrame {
         start_race.setFont(normalFont);
         start_race.setBackground(Color.RED);  
 
-
-
-
-
-
+        // the Toirtoise button for toirtoise movement
+        tortue = new JButton();
         tortue.setIcon(new ImageIcon(Class.class.getResource("/resources/tortue.png")));
 
+        //  The Hare button for the hare movement
+        lievre = new JButton();
+        tortue.setIcon(new ImageIcon(Class.class.getResource("/resources/lievre.png")));
 
         // // The Toirtoise
         // path_tortue = 'C:\\Users\\hp\\OneDrive\\Bureau\\Java\\Multithreading\\tortue.png'   
