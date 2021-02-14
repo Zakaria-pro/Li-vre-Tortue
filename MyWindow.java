@@ -48,14 +48,15 @@ public class MyWindow extends JFrame {
         title.setFont(specialFont);
         
         // the Start button
-        start_race.setText("Start");
+        start_race = new JButton("Start");
         start_race.setFont(normalFont);
         start_race.setBackground(Color.GREEN);
         
         // the Quit button
-        start_race.setText("Quit");
-        start_race.setFont(normalFont);
-        start_race.setBackground(Color.RED);  
+        
+        quit = new JButton("Quit");
+        quit.setFont(normalFont);
+        quit.setBackground(Color.RED);  
 
         // the Toirtoise button for toirtoise movement
         tortue = new JButton();
@@ -66,12 +67,12 @@ public class MyWindow extends JFrame {
         tortue.setIcon(new ImageIcon(Class.class.getResource("/resources/lievre.png")));
 
         // // The Toirtoise
-        // path_tortue = 'C:\\Users\\hp\\OneDrive\\Bureau\\Java\\Multithreading\\tortue.png'   
+        // path_tortue = "C:\\Users\\hp\\OneDrive\\Bureau\\Java\\Multithreading\\tortue.png"   
         // Icon icon1 = new ImageIcon(path_tortue);
         // tortue = new JButton(icon1);
         
         // // The Hare
-        // path_lievre = 'C:\\Users\\hp\\OneDrive\\Bureau\\Java\\Multithreading\\lievre.png'
+        // path_lievre = "C:\\Users\\hp\\OneDrive\\Bureau\\Java\\Multithreading\\lievre.png"
         // Icon icon2 = new ImageIcon(path_lievre);
         // lievre = new JButton(icon2);
 
