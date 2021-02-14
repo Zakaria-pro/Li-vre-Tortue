@@ -128,7 +128,7 @@ public class MyWindow extends JFrame {
     }
 
     public void initFrame() {
-        frame_1 = JFrame("The Race");
+        frame_1 = new JFrame("The Race");
         
         /* GraphicsConfiguration */
         frame_1.setResizable(false);
