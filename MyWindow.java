@@ -142,11 +142,6 @@ public class MyWindow extends JFrame {
         frame_1.setLayout(new BorderLayout());
     }
 
-    private JFrame JFrame(String string) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	public void panelsInFrame() {
         frame_1.add(pn, BorderLayout.NORTH);
         frame_1.add(pc, BorderLayout.CENTER);
