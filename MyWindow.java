@@ -116,8 +116,8 @@ public class MyWindow extends JFrame {
     public void compenentsInPanels() {
         pn.add(title, BorderLayout.CENTER);
     
-        pc.add(tortue);
-        pc.add(lievre);
+        //pc.add(tortue);
+        //pc.add(lievre);
         
         ps.add(start_race, BorderLayout.EAST);
         ps.add(quit, BorderLayout.WEST);
@@ -149,6 +149,10 @@ public class MyWindow extends JFrame {
         //frame_1.add(pe, "East");
         //frame_1.add(pw, "West");
     }
+
+    // Construction des deux threads 
+        Thread tortue = new Thread(new Tortue(1)); 
+        Thread lievre = new Thread(new Lievre(2)); 
 
         
 }
